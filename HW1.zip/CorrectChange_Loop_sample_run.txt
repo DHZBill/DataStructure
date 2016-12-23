@@ -1,0 +1,26 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure
+> run CorrectChange_Loop
+How much money do you want to make change for? [DrJava Input Box]
+We can make change for $48.94 using:
+2 $20 bills
+1 $5 bills
+3 $1 bills
+3 quarters
+1 dimes
+1 nickels
+4 pennies
+> run CorrectChange_Loop
+How much money do you want to make change for? [DrJava Input Box]
+We can make change for $11.22 using:
+1 $10 bills
+1 $1 bills
+2 dimes
+2 pennies
+> run CorrectChange_Loop
+How much money do you want to make change for? [DrJava Input Box]
+We can make change for $0.68 using:
+2 quarters
+1 dimes
+1 nickels
+3 pennies
+> 

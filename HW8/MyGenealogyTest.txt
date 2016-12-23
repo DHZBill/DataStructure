@@ -1,0 +1,18 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/Assign8
+> run MyGenealogy
+My genealogy contains 15 members:
+ Bill
+ W Y
+ S H C F
+ A B D E G I J K
+
+Bill was found: true
+You appear at the root: Bill
+H was found: true
+Your paternal grandfather is: S
+Your maternal grandmother is: F
+Your paternal great-grandfather is: A
+Your Maternal great-grandmother is: K
+S and C are in-laws: true
+A and H are in-laws: false
+> 

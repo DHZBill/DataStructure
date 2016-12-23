@@ -1,0 +1,33 @@
+public class Cyberspace{
+ private Webpage[] collection;
+ private static int size;
+ private int index = 0;
+ public Cyberspace(int size){
+  collection = new Webpage[size];
+ }
+
+ public void addWebpage(Webpage p){
+  String url = p.getURLName();
+     String content = "";
+     int lineCounter = 0;
+    try {
+      URL u = new URL(url);
+      Scanner urlScan = new Scanner( u.openStream() ); // will throw exception
+      while (urlScan.hasNext()) {
+       String line = urlScan.nextLine();
+       lineCounter++;
+       content += line;
+      }
+    } catch (IOException ex) {
+      System.out.println(ex);
+    }
+    Webpage p = new Webpage(url, lineCounter, content);
+    collection[index] = p;
+    index ++;
+  }
+ public static void main(String[] args){
+  Cyberspace cyberspace = new Cyberspace(10);
+  Webpage p = new Webpage("www.google.com",0,"");
+  cyberspace.addWebpage(p);
+ }
+}

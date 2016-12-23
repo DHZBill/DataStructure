@@ -1,0 +1,13 @@
+Original queue: 
+<front of queue>
+Amber
+Bill
+Cindy
+<rear of queue>
+
+Reversed queue: 
+<front of queue>
+Cindy
+Bill
+Amber
+<rear of queue>

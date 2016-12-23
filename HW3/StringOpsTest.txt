@@ -1,0 +1,6 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/HW3
+> run StringOps
+cinema and iceman are anagrams.
+hello and world are not anagrams.
+Wllesley
+> 

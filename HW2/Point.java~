@@ -1,0 +1,35 @@
+public class Point{
+  private double xCoord;
+  private double yCoord;
+  private final double TOLERANCE = 0.01;
+  public Point(double xCoord, double yCoord){
+    this.xCoord = xCoord;
+    this.yCoord = yCoord;
+  }
+  
+  public double findDistance(Point other){
+    xDistance = this.xCoord - other.xCoord;
+    yDistance = this.yCoord - other.xCoord;
+    distance = Math.sqrt(xDistance*xDistance + yDistance*yDistance);
+    return distance;
+  }
+  public boolean areEquidistant(Point p2, Point p3){
+    return (Math.abs(findDistance(p2) - findDistance(p3)) <= TOLERANCE);
+  }
+  public double getX(){
+    return this.xCoord; 
+  }
+  public double getY(){
+    return this.yCoord;
+  }
+  public void setX(double newX){
+    this.xCoord = newX;
+  }
+  public void setY(double newY){
+    this.yCoord = newY;
+  }
+  public String toString(){
+    return ("(" + xCoord + ", " + yCoord + ")");
+  }
+  public 
+}

@@ -1,0 +1,27 @@
+/* CorrectChange.java 
+ * CS230 Assignment 1 task 1 
+ * Written by: Haozheng Du 
+*/ 
+import java.util.Scanner; 
+public class CorrectChange{
+  public static void main(String [] args){
+    Scanner scan = new Scanner(System.in);
+    System.out.println("How much money do you want to make change for?"); 
+    Double total = scan.nextDouble();
+    total = total * 100;
+    
+    
+    
+    
+  }
+  public static int makeChangeWithOneDenomination(int total, 
+                                                  String denominationName, 
+                                                  int denomination){
+    System.out.println(total/denomination + denominationName);
+    return (total % denomination);
+    
+    
+  }
+
+}
+    

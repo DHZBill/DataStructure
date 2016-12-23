@@ -1,0 +1,77 @@
+public class Flight{
+  private String airline;
+  private int flNum;
+  private String from;
+  private String to;
+  Public Flight(String airline, 
+                int flNum, 
+                String from, 
+                String to){
+    this.airline = airline;
+    this.flNum = flNum;
+    this.from = from;
+    this.to = to;
+  }
+  
+  public String getAirline(){
+    return this.airline;
+  }
+  public String getDestination(){
+    return this.to;
+  }
+  public int getFlightNumber(){
+    return this.flNum;
+  }
+  public String getOrigin(){
+    return this.from;
+  }
+  public void setAirline(String airline){
+    this.airline = airline;
+  }
+  public void setDestination(String toCity){
+    this.to = toCity;
+  }
+  public void setFlightNum(int flNum){
+    this.flNum = flNum;
+  }
+  public void setOrigin(String formCity){
+    this.from = fromCity;
+  }
+  public String toString(){
+    return("Airline: " + this.airline + "\n" +
+           "Flight Number: " + this.flNum + "\n" +
+           "Destination : " + this.to + "\n" +
+           "Origin: " + this.from + "\n");   
+  }
+  public static Flight readFlight(Scanner s){
+    System.out.println("Enter the Airline:");
+    String airline = s.nextString();
+    System.out.println("Enter the Flight Number:");
+    int flNum = s.nextInt();
+    System.out.println("Enter the Destination:");
+    String to = s.nextString();
+    System.out.println("Enter the Origin:");
+    String from = s.nextString();
+    Flight flight = new Flight(airline, flNum, from, to);
+  }
+  public static boolean stopOver(Flight f1, Flight f2){
+    return(f1.to == f2.from || f1.from = f2.to);
+  }
+  public static void main(String[] args){
+    int numberOfFlights = 3;
+    Scanner scan = new Scanner(Sytem.in);
+    Flight[] flightArray = new Flight[numberofFlights]
+    for(int i = 0; i < n; i++){
+      flightArray[i] = readFlight(scan);
+    }
+    for(int i = 0; i < n; i++){
+      for(int j = i + 1; j < n; j++){
+        if !(stopOver(flightArray[i], flightArray[j])){
+          System.out.println("They don't share a stopover city.");
+          break();
+        }      
+      }
+    }
+    System.out.println("They share a stopover city."
+  }
+}

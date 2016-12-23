@@ -1,0 +1,22 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/Assign8
+> run GenealogyTree
+Current Tree: 
+ D
+ E B
+
+Tree size: 3
+The tree contains I: false
+ D
+ E B
+
+Current Tree: 
+ D
+ E B
+ I A F K
+
+The tree contains I: true
+Offspring of A: E
+I and F are in-laws: true
+I and E are in-laws: false
+Testing byGeneration():
+DEBIAFK> 

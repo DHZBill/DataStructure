@@ -1,0 +1,45 @@
+public class Webpage implements Comparable{
+	private String URLname;
+	private int lineCounter;
+	private String pageContent;
+
+	public Wbpage(String URLname, int lineCounter, Stirng pageContent){
+		this.URLname = URLname;
+		this.lineCounter = lineCounter;
+		this.pageContent = pageContent;
+	}
+	public int compareTo(Webpage p){
+		return Integer.compareTo(this.lineCounter, p.lineCounter);
+	}
+	public int getLineCounter(){
+		return lineCounter;
+	}
+	public String getPageContent(){
+		return pageContent;
+	}
+	public String getURLName(){
+		return URLname;
+	}
+	public void setPageContent(String content){
+		this.pageContent = content;
+	}
+	public void setURLName(String name){
+		this.URLname = name;
+	}
+	public String toString(){
+
+	}
+	public static void main(String[] args){
+		try {
+			URL u = new URL(urlName);
+			Scanner urlScan = new Scanner( u.openStream() ); // will throw exception
+			while (urlScan.hasNext()) {
+				String line = urlScan.nextLine();
+				System.out.println(line);
+			}
+		} catch (IOException ex) {
+			System.out.println(ex);
+		}
+		// Webpage webpage = new Webpage()
+	}
+}

@@ -1,0 +1,16 @@
+Welcome to DrJava.  Working directory is C:\Users\jkim2\Documents\cs230\Assignment 3
+> run School
+Name: Wellesley
+Academics: 0
+Research: 7
+Publications: 10
+Overall Rating: 0
+Current Rank: 0
+setting overall rating
+Name: Wellesley
+Academics: 0
+Research: 7
+Publications: 10
+Overall Rating: 44
+Current Rank: 0
+> 

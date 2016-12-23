@@ -1,0 +1,12 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/assign5
+> run PalindromeChecker
+Please give an input string in command-line
+> run PalindromeChecker madam
+madam is a palindrome
+> run PalindromeChecker hello
+hello is not a palindrome
+> run PalindromeChecker lol
+lol is a palindrome
+> run PalindromeChecker abcdefggfedcba
+abcdefggfedcba is a palindrome
+> 

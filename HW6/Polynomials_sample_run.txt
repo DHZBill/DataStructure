@@ -1,0 +1,7 @@
+Welcome to DrJava.  Working directory is C:\Users\xxu\Desktop\Data structure\Assignment_6
+> run Polynomial
+2x^3 
+5x^4 +2x^3 +1x^2 +2x^1 +1 
+3x^5 +2x^2 
+3x^5 +5x^4 +2x^3 +3x^2 +2x^1 +1 
+> 

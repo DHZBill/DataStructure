@@ -1,0 +1,60 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/HW2
+> run Flight
+Enter the Airline:
+ [DrJava Input Box]
+Enter the Flight Number:
+ [DrJava Input Box]
+Enter the Destination:
+ [DrJava Input Box]
+Enter the Origin:
+ [DrJava Input Box]
+Flight Information Recorded!
+Enter the Airline:
+ [DrJava Input Box]
+Enter the Flight Number:
+ [DrJava Input Box]
+Enter the Destination:
+ [DrJava Input Box]
+Enter the Origin:
+ [DrJava Input Box]
+Flight Information Recorded!
+Enter the Airline:
+ [DrJava Input Box]
+Enter the Flight Number:
+ [DrJava Input Box]
+Enter the Destination:
+ [DrJava Input Box]
+Enter the Origin:
+ [DrJava Input Box]
+Flight Information Recorded!
+They share a stopover city.
+> run Flight
+Enter the Airline:
+ [DrJava Input Box]
+Enter the Flight Number:
+ [DrJava Input Box]
+Enter the Destination:
+ [DrJava Input Box]
+Enter the Origin:
+ [DrJava Input Box]
+Flight Information Recorded!
+Enter the Airline:
+ [DrJava Input Box]
+Enter the Flight Number:
+ [DrJava Input Box]
+Enter the Destination:
+ [DrJava Input Box]
+Enter the Origin:
+ [DrJava Input Box]
+Flight Information Recorded!
+Enter the Airline:
+ [DrJava Input Box]
+Enter the Flight Number:
+ [DrJava Input Box]
+Enter the Destination:
+ [DrJava Input Box]
+Enter the Origin:
+ [DrJava Input Box]
+Flight Information Recorded!
+They don't share a stopover city.
+> 

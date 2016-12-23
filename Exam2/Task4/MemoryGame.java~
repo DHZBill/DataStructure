@@ -1,0 +1,38 @@
+public class MemoryGame{
+  private LinkedList<Card> table;
+  private Deck deck;
+  private boolean gameOver;
+  public MemoryGame(){
+    deck = new Deck;
+    table = new LinkedList<Card>();
+    gameOver = false;
+  }
+  public void generateTable(){
+    for(int i = 0; i < 10; i++){
+      Card c = deck.pop();
+      c.revealed = false;
+      table.add(deck.pop());
+    }
+  }
+  public Card flip(int index){
+    return table.get(index);
+  }
+  public boolean match(Card c1, Card c2){
+    return c1.equals(c2);
+  }
+  public void playOneRound(){
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Pick the card number [1-10]. Type 0 to stop the game.");
+    int i = scan.nextInt();
+    System.out.println
+  }
+  public static void main(String[] args){
+    System.out.println("Welcome to the memory game.");
+    System.out.println("Your goal is to match the cards in the daeck in the minimum number of rounds");
+    
+    MemoryGame game = new MemoryGame();
+    game.deck.shuffle();
+    game.generateTable();
+    
+  }
+}

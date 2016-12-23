@@ -1,0 +1,8 @@
+Welcome to DrJava.  Working directory is C:\Users\xxu\Desktop\Data structure\Assignment_6
+> run polynomialTest
+Enter Polynomial P1
+ [DrJava Input Box]
+Enter Polynomial P2
+ [DrJava Input Box]
+The result of adding them is: 
+1x^4 +2x^3 +-2x^2 +5 +3x^-1 > 

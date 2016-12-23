@@ -1,0 +1,19 @@
+public abstract class Account {
+
+    protected int accountNumber;
+    protected double balance;
+
+    public Account(int initialDeposit){
+        this.balance = initialDeposit;
+    }
+
+    public void deposit(int amount){
+        this.balance += amount;
+    }
+
+    public String toString() {
+        return "Account Balance: $" + balance;
+    }
+
+    public abstract void(int amount){}
+}

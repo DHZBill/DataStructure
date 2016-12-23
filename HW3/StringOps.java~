@@ -1,0 +1,39 @@
+import java.util.Arrays;
+public class StringOps{
+	public StringOps(){
+
+	}
+	public static void testAnagrams(String word1, String word2){
+		if(word1.length() == word2.length()){
+			char[] word1Char= word1.toCharArray();
+			char[] word2Char = word2.toCharArray();
+			Arrays.sort(word1Char);
+			Arrays.sort(word2Char);
+			if (Arrays.equals(word1Char, word1Char)){
+				System.out.println(word1 + " and " + word2 + " are anagrams.");
+			}
+			else
+				System.out.println(word1 + " and " + word2 + " are not anagrams.");
+		}
+		else
+			System.out.println(word1 + " and " + word2 + " are not anagrams.");
+	}
+	public static String removeChar(String s, char ch){
+		char[] sChar = s.toCharArray();
+		for(int i = 0; i < s.length(); i++){
+			if (sChar[i] == ch){
+				for(int j = i; j<s.length()-1; j++){
+					sChar[j] = sChar[j+1];
+				}
+				break;
+			}
+		}
+		String newString = new String(sChar);
+		return newString;
+	}
+
+	public static void main(String[] args){
+		testAnagrams("cinema","iceman");
+
+	}
+}

@@ -1,0 +1,14 @@
+public class CheckingAccount extends Account {
+
+
+    public CheckingAccount(int initialDeposit){
+        super(initialDeposit);
+
+    }
+    public String toString() {
+        return "Checking Account " + this.accountNumber + "\nBalance: $" + this.balance;
+    }
+
+    public void withdraw(int amount){
+        this.deposit(-amount);
+    }

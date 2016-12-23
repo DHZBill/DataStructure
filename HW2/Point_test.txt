@@ -1,0 +1,30 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/HW2
+> run Point
+Enter the X coordinate:
+ [DrJava Input Box]
+Enter the Y coordinate:
+ [DrJava Input Box]
+Enter the X coordinate:
+ [DrJava Input Box]
+Enter the Y coordinate:
+ [DrJava Input Box]
+Enter the X coordinate:
+ [DrJava Input Box]
+Enter the Y coordinate:
+ [DrJava Input Box]
+Point (2.5, 10.0) is equidistant to the other two.
+> run Point
+Enter the X coordinate:
+ [DrJava Input Box]
+Enter the Y coordinate:
+ [DrJava Input Box]
+Enter the X coordinate:
+ [DrJava Input Box]
+Enter the Y coordinate:
+ [DrJava Input Box]
+Enter the X coordinate:
+ [DrJava Input Box]
+Enter the Y coordinate:
+ [DrJava Input Box]
+None of the 3 points is equidistant to the other two.
+> 

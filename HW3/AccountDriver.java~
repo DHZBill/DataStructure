@@ -1,0 +1,15 @@
+public class AccountDriver{
+  public static void main(String[] args){
+    CheckingAccount c = new CheckingAccount(3000);
+    System.out.println(c);
+    c.deposit(1000);
+    System.out.println("After deposit: \n" + c);
+    c.withdraw(5000);
+    System.out.println("Withdrawl 5000: \n" + c);
+    SavingsAccount s = new SavingAccount(5000);
+    System.out.println(s);
+    s.withdraw(10000);
+    System.out.println(s);
+  }
+  
+}

@@ -1,0 +1,49 @@
+import java.util.*;
+
+/**
+ * Represents a collection of cards
+ */
+public class Deck{
+  // The initial number of cards in the Deck
+  private final int NUM_OF_CARDS = 52;
+  // The stack of cards in the Deck
+  Stack<Card> allCards;
+  
+  /**
+   * Constructor that fills the deck with Card objects
+   */
+  public Deck(){
+    
+  }
+  
+  /**
+   * Shuffles the cards within this Deck object
+   */
+  public void shuffle(){
+    
+  }
+
+  /** 
+   * Checks if there are any more cards in the deck
+   * @return True if there is at least one more card
+   */
+  public boolean hasNext(){
+    
+  }
+  
+  /**
+   * Retrieves the next card from the deck
+   * @return The top card from the deck
+   */
+  public Card getNext(){
+   
+  }
+  
+  /** 
+   * Gets the original size of the deck of cards
+   * @return Number of cards originally in the deck
+   */
+  public int originalSize(){
+    return NUM_OF_CARDS;
+  }
+}

@@ -1,0 +1,30 @@
+Welcome to the memory game.
+Your goal is to match the cards in the deck in the minimum number of rounds.
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+Pick the card number [1-10]. Type 0 to stop the game.
+1
+[HEART5] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+Pick the second card number [1-10]. Type 0 to stop the game.
+2
+[HEART5] [HEART8] [3] [4] [5] [6] [7] [8] [9] [10] 
+Not a match. Try again!
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+Pick the card number [1-10]. Type 0 to stop the game.
+5
+[1] [2] [3] [4] [SPADE13] [6] [7] [8] [9] [10] 
+Pick the second card number [1-10]. Type 0 to stop the game.
+7
+[1] [2] [3] [4] [SPADE13] [6] [CLUB10] [8] [9] [10] 
+Not a match. Try again!
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+Pick the card number [1-10]. Type 0 to stop the game.
+9
+[1] [2] [3] [4] [5] [6] [7] [8] [DIAMOND5] [10] 
+Pick the second card number [1-10]. Type 0 to stop the game.
+1
+[HEART5] [2] [3] [4] [5] [6] [7] [8] [DIAMOND5] [10] 
+Awesome! You found a match.
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+Pick the card number [1-10]. Type 0 to stop the game.
+0
+Play again soon!

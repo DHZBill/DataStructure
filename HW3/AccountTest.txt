@@ -1,0 +1,29 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/HW3
+> run AccountDriver
+Checking account 1
+minimum balance: 100
+Account Balance: $3000.0
+
+After deposit: 
+Checking account 1
+minimum balance: 100
+Account Balance: $4000.0
+
+Withdraw 5000: 
+Checking account 1
+minimum balance: 100
+Account Balance: $-1050.0
+
+Saving Account 2
+Account Balance: $5000.0
+Interest Rate: 1.5
+
+Recalculating balance Saving Account 2
+Account Balance: $5006.0
+Interest Rate: 1.5
+
+**Withdrawal DENIED: Amount in Savings is greater than balance.
+Saving Account 2
+Account Balance: $5006.0
+Interest Rate: 1.5
+> 

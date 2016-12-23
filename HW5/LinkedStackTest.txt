@@ -1,0 +1,20 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/assign5
+> run LinkedStackDriver
+Empty? true
+
+Add a element
+<top of stack>
+Element1
+<bottom of stack>
+
+Add 2 more elements
+<top of stack>
+Element3
+Element2
+Element1
+<bottom of stack>
+
+Peeking:
+Element3
+Size: 3
+> 

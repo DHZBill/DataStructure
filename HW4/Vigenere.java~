@@ -1,0 +1,55 @@
+ public class Vigenere implements Encryptable{
+ 	private String msg;
+ 	private String password;
+ 	private boolean encrypted;
+ 	public Vigenere(msg, password){
+ 		this.msg = msg;
+ 		this.password = password;
+ 		this.encrypted = false;
+ 	}
+ 	public void encrypt(){
+ 		if(!isEncrypted())
+ 		{
+ 			int[] shiftArray = new int[password.length()];
+ 			String masked = "";
+ 			for (int index = 0; index < msg.length(); index++){
+ 				for (int i = 0; i < password.length(); i++){
+ 					int shiftIndex = (index+1)%(i+1);
+ 					int shift = password.charAt(shiftIndex-1) - "a".charAt(0);
+ 					masked += (char)((msg.charAt(index)+shift)%26);
+ 				}
+ 			}
+ 			msg = masked;
+ 			this.encrypted = true;
+ 		}
+ 	}
+ 	public void decrypt(){
+ 		if(isEncrypted()){
+ 			int[] shiftArray = new int[password.length()];
+ 			String unmasked = "";
+ 			for (int index = 0; index < msg.length(); index++){
+ 				for (int i = 0; i < password.length(); i++){
+ 					int shiftIndex = (index+1)%(i+1);
+ 					int shift = password.charAt(shiftIndex-1) - "a".charAt(0);
+ 					unmasked += (char)((msg.charAt(index)-shift)%26);
+ 				}
+ 			}
+ 			msg = unmasked;
+ 			this.encrypted = false;
+ 		}
+
+ 	}
+ 	public boolean isEncrypted(){
+ 		return this.encrypted;
+ 	}
+ 	public String toString(){
+ 		return msg;
+ 	}
+ 	public static void main(String[] args){
+ 		String s = "Attack at Dawn";
+ 		s.encrypt();
+ 		System.out.println(s);
+ 		s.decrypt();
+ 		System.out.println(s);
+ 	}
+ }

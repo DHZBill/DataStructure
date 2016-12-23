@@ -1,0 +1,71 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/Assign7/lab8
+> run AdjMatGraph
+Sample.tgf
+Number of vertices: 5
+Number of arcs: 7
+Arcs
+---------
+i A B C D E 
+A - 1 1 - - 
+B 1 - 1 - - 
+C 1 1 - - - 
+D - - - - 1 
+E - - - - - 
+
+isArc A -> C? (TRUE): true
+isEdge A <-> C? (TRUE): true
+isEdge  D <--> E? (FALSE): false
+isArc D -> E? (TRUE): true
+isArc E -> D? (FALSE): false
+Removing vertex A. Adding edge B<-->D
+Number of vertices: 4
+Number of arcs: 5
+Arcs
+---------
+i B C D E 
+B - 1 1 - 
+C 1 - - - 
+D 1 - - 1 
+E - - - - 
+
+The predecessors of B are: [C, D]
+The successors of B are: [C, D]
+The predecessors of E are: [D]
+The successors of E are (E has no successors): []
+Adding A (at the end of vertices). Adding B (should be ignored).
+Saving the graph into BCDEA.tgf
+The graph is isUndirected (FALSE): false
+Adding E->D to make the graph undirected.
+isUndirected? (TRUE): true
+The index of E is: 4
+
+Construct a graph from an empty graph
+myGraph is empty (TRUE): true
+Adding vertices L, M, N, O, P, Q
+Number of vertices: 6
+Number of arcs: 0
+Arcs
+---------
+i L M N O P Q 
+L - - - - - - 
+M - - - - - - 
+N - - - - - - 
+O - - - - - - 
+P - - - - - - 
+Q - - - - - - 
+
+Adding edges M<-->N, M<-->P. Adding arc L->O.
+Number of vertices: 6
+Number of arcs: 5
+Arcs
+---------
+i L M N O P Q 
+L - - - 1 - - 
+M - - 1 - 1 - 
+N - 1 - - - - 
+O - - - - - - 
+P - 1 - - - - 
+Q - - - - - - 
+
+The 0th position in the vertices array is always null: [null, L, M, N, O, P, Q, null]
+> 

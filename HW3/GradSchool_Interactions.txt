@@ -1,0 +1,103 @@
+Welcome to DrJava.  Working directory is C:\Users\jkim2\Documents\cs230\Assignment 3
+> run GradSchool
+Please provide 3 weights(1-5) for Academics, Research and Publications
+> run GradSchool 1,2,3
+Please provide 3 weights(1-5) for Academics, Research and Publications
+> run GradSchool 1 2 3
+
+There are 4 schools in the database: 
+
+Name: Wellesley
+Academics: 7
+Research: 4
+Publications: 5
+Overall Rating: 30
+Current Rank: 0
+
+
+Name: Olin
+Academics: 6
+Research: 9
+Publications: 3
+Overall Rating: 33
+Current Rank: 0
+
+
+Name: Babson
+Academics: 3
+Research: 9
+Publications: 2
+Overall Rating: 27
+Current Rank: 0
+
+
+Name: MIT
+Academics: 2
+Research: 3
+Publications: 10
+Overall Rating: 38
+Current Rank: 0
+
+
+
+
+Ranking of schools from highest to lowest using Academics as a factor
+Wellesley
+Olin
+Babson
+MIT
+
+Ranking of schools from highest to lowest using Research as a factor
+Babson
+Olin
+Wellesley
+MIT
+
+Ranking of schools from highest to lowest using Publications as a factor
+MIT
+Wellesley
+Olin
+Babson
+
+Ranking of schools from highest to lowest using Overall as a factor
+MIT
+Olin
+Wellesley
+Babson
+
+There are 4 schools in the database: 
+
+Name: Babson
+Academics: 3
+Research: 9
+Publications: 2
+Overall Rating: 27
+Current Rank: 4
+
+
+Name: Wellesley
+Academics: 7
+Research: 4
+Publications: 5
+Overall Rating: 30
+Current Rank: 3
+
+
+Name: Olin
+Academics: 6
+Research: 9
+Publications: 3
+Overall Rating: 33
+Current Rank: 2
+
+
+Name: MIT
+Academics: 2
+Research: 3
+Publications: 10
+Overall Rating: 38
+Current Rank: 1
+
+
+
+> 

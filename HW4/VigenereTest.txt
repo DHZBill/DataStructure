@@ -1,0 +1,7 @@
+Welcome to DrJava.  Working directory is /Users/DHZ_Bill/Olin/DataStructure/HW4
+> run Vigenere
+Message: Attack at Dawn
+Password: CAT
+Encrypted: CTMCCDCTWCWG
+Decrypted: ATTACKATDAWN
+> 
